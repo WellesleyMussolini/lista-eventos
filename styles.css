@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ECEBFA;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 53%;
+}
+
+.wrapper h1 {
+    width: 90%;
+    text-align: left;
+    margin-bottom: 15px;
+    color: #202432;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.film-festival,
+.wool-week,
+.light-park,
+.gingerbread {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 7em;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* film festival */
+
+.film-festival .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    width: 6em;
+    background: #ECEBFA;
+    margin-left: 20px;
+    color: #202432;
+    font-weight: bolder;
+}
+
+.film-festival .box p:first-child {
+    font-size: 0.9em;
+}
+
+.film-festival .box p:last-child {
+    font-size: 2em;
+}
+
+.film-festival .description {
+    width: 24em;
+}
+
+.film-festival .description h3 {
+    color: #202432;
+    font-size: 1.5em;
+    margin-bottom: 7px;
+}
+
+.film-festival .calendar {
+    margin-right: 20px;
+}
+
+.film-festival .calendar button {
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    background: #fff;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.film-festival .calendar button p:first-child {
+    font-size: 2em;
+    margin-right: 6px;
+}
+
+/* wool week */
+
+.wool-week .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    width: 6em;
+    margin-left: 20px;
+    color: #202432;
+    font-weight: bolder;
+    background: #ffd0fa9a;
+}
+
+.wool-week .box p:first-child {
+    font-size: 0.9em;
+}
+
+.wool-week .box p:last-child {
+    font-size: 2em;
+}
+
+.wool-week .description {
+    width: 24em;
+}
+
+.wool-week .description h3 {
+    color: #202432;
+    font-size: 1.5em;
+    margin-bottom: 7px;
+}
+
+.wool-week .calendar {
+    margin-right: 20px;
+}
+
+.wool-week .calendar button {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: black;
+    color: #fff;
+    padding: 0 5px;
+    outline: none;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.wool-week .calendar button p:first-child {
+    font-size: 2em;
+    margin-right: 6px;
+}
+
+/* light park */
+
+.light-park .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    width: 6em;
+    margin-left: 20px;
+    color: #202432;
+    font-weight: bolder;
+    background: #ffd0fa9a;
+}
+
+.light-park .box p:first-child {
+    font-size: 0.9em;
+}
+
+.light-park .box p:last-child {
+    font-size: 2em;
+}
+
+.light-park .description {
+    width: 24em;
+}
+
+.light-park .description h3 {
+    color: #202432;
+    font-size: 1.5em;
+    margin-bottom: 7px;
+}
+
+.light-park .calendar {
+    margin-right: 20px;
+}
+
+.light-park .calendar button {
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    background: #fff;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.light-park .calendar button p:first-child {
+    font-size: 2em;
+    margin-right: 6px;
+}
+
+/* gingerbread city */
+
+.gingerbread .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    width: 6em;
+    margin-left: 20px;
+    color: #202432;
+    font-weight: bolder;
+    background: #ECEBFA;
+}
+
+.gingerbread .box p:first-child {
+    font-size: 0.9em;
+}
+
+.gingerbread .box p:last-child {
+    font-size: 2em;
+}
+
+.gingerbread .description {
+    width: 24em;
+}
+
+.gingerbread .description h3 {
+    color: #202432;
+    font-size: 1.5em;
+    margin-bottom: 7px;
+}
+
+.gingerbread .calendar {
+    margin-right: 20px;
+}
+
+.gingerbread .calendar button {
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    background: #fff;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.gingerbread .calendar button p:first-child {
+    font-size: 2em;
+    margin-right: 6px;
+}
