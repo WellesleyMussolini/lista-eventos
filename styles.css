@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+@media only screen and (min-width : 1600px) {
+    .wrapper{
+        width: 53%;
+    }
+}
+
+@media only screen and (max-width : 1600px) {
+    .wrapper{
+        width: 53em;
+    }
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -18,7 +30,6 @@
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    width: 53%;
 }
 
 .wrapper h1 {
