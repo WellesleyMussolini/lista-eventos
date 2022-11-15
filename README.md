@@ -28,12 +28,7 @@
 
 <h1 dir="auto"><a aria-hidden="true" class="anchor" href="#requisitos-funcionais"><a/>Requisitos Funcionais</h1>
  
-- [x] Cadastrar Usuário
-- [x] Fazer Login
-- [ ] Matricular em Curso
-- [ ] Cancelar Matricula
-- [ ] Visualizar Notas
-- [ ] Visualizar e Atualizar Informações do Estudante
+- [x] Adicionar evento como lembrete no calendário.
 
 <h1 dir="auto"><a aria-hidden="true" class="anchor" href="#tecnologias-usadas"><a/>Tecnologias Usadas</h1>
 <ul class="contains-task-list">
